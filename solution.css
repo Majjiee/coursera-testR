@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(167, 161, 161);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+}
+#gene{
+    position: relative;
+    height: 500px;
+    padding: 10px;
+    padding-top: 6%;
+    padding-top: 6%;
+    left: 0;
+    background-color: brown;
+}
+#fst{
+    position: absolute;
+    border: 1px black solid;
+    float: left;
+    width: 30%;
+    margin-left: 0.1%;
+    background-color: antiquewhite;
+
+}
+#scnd{
+    position: absolute;
+    border: 1px black solid;
+    float: left;
+    width: 30%;
+     margin-left: 68%; 
+    margin-right: 1%;
+    background-color: bisque;
+}
+#trd{
+    position: absolute;
+    border: 1px black solid;
+    float: left;
+    margin-left: 34%;
+    width: 30%;
+    background-color: beige;
+    
+    
+}
+h3{
+    margin-top: 0;
+    margin-bottom: 0.5%;
+    margin-left: 75%;
+    border: 2px yellow solid;
+    text-align: center;
+    background-color: yellow;
+
+}
+p{
+    padding: 15px;
+    
+
+}
+@media screen and (max-width: 991px) and (min-width: 700px){
+    #gene{
+        height: 600px;
+    }
+    #scnd{
+        float: left;
+        width: 90%;
+        margin-top: 40%;
+        margin-left: 4%;
+    }
+    #trd{
+        margin-left: 50%;
+        width: 45%;
+    }
+    #fst{
+        width: 45%;
+        margin-left: 4%;
+
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 700px){
+    #gene{
+        height: 700px;
+    }
+    #scnd{
+        float: left;
+        width: 90%;
+        margin-top: 50%;
+        margin-left: 4%;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 769px){
+    #gene{
+        height: 650px;
+    }
+    #scnd{
+        float: left;
+        width: 90%;
+        margin-top: 55%;
+        margin-left: 4%;
+    }
+}
+@media screen and (max-width: 768px) {
+    #gene{
+        height: 820px;
+    }
+    #scnd{
+        float: left;
+        width: 90%;
+        margin-top: 40%;
+        margin-left: 4%;
+    }
+    #trd{
+        float: left;
+        margin-top: 80%;
+        width: 90%;
+        margin-left: 4%;
+    }
+    #fst{
+        float: left;
+        width: 90%;
+        margin-left: 4%;
+
+    }
+}
